@@ -1,0 +1,15 @@
+<div class="container">
+    <div>
+        <p class="game-over-title">GAME OVER!</p>
+    </div>
+
+    <div class="game-data">
+        <h2>Your current points: </h2>
+        <h3>Animals: {{getAnimalsPoints()}}{{animalsPoints}}</h3>
+        <h3>Celebrities: {{getCelebritiesPoints()}}{{celebritiesPoints}}</h3>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" (click)="goHome()">Home</button>
+    </div>
+</div>

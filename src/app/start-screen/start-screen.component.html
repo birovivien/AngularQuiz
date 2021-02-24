@@ -1,0 +1,24 @@
+<div class="welcome-title">Welcome, {{getName()}}{{name}}!</div>
+
+<div class="categories-title">
+  Categories:
+</div>
+
+<div class="category-buttons">
+  <button class="btn btn-primary" (click)="firstCat()" id="firstCat">Animals</button>
+  <button class="btn btn-primary" (click)="secondCat()" id="secondCat">Celebrities</button>
+</div>
+
+<div class="your-points-title">
+  Your current points:
+  <h3>Animals: {{getAnimalsPoints()}}{{animalsPoints}}</h3>
+  <h3>Celebrities: {{getCelebritiesPoints()}}{{celebritiesPoints}}</h3>
+</div>
+
+<div>
+  <button class="btn btn-primary" (click)="restart()" id="restart">Restart</button>
+</div>
+
+<div>
+  <button class="btn btn-primary" (click)="logOut()" id="logOut">Log Out</button>
+</div>

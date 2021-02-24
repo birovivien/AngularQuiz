@@ -1,0 +1,22 @@
+<div class="player-name">Player: {{getName()}}{{name}}</div>
+<app-current-points [points]=points></app-current-points>
+
+<div class="question">{{question.question}}</div>
+
+<div>{{chooseAnswer(this.chosenAnswer)}}
+  <div>
+    <button class="btn btn-primary answer" (click)="chooseAnswer(shuffled[0])" [disabled]="chosenAnswer">{{shuffled[0]}}</button>
+    <button class="btn btn-primary answer" (click)="chooseAnswer(shuffled[1])" [disabled]="chosenAnswer">{{shuffled[1]}}</button>
+    <button class="btn btn-primary answer" (click)="chooseAnswer(shuffled[2])" [disabled]="chosenAnswer">{{shuffled[2]}}</button>
+    <button class="btn btn-primary answer" (click)="chooseAnswer(shuffled[3])" [disabled]="chosenAnswer">{{shuffled[3]}}</button>
+  </div>
+</div>
+
+<div>
+  <h4>Your answer: "{{this.chosenAnswer}}"</h4>
+  <h4>Correct answer: "{{correctAns}}"</h4>
+</div>
+
+<div>
+  <button class="btn btn-primary next" (click)="onSubmit()" [disabled]="!chosenAnswer">Next</button>
+</div>

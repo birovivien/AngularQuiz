@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    background-color: #94b5c0;
+    color: #161d6f;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-primary {
+    background-color: #d9dab0;
+    border-color: #d9dab0;
+    border: 2px solid #d9dab0;
+}
+
+.btn-primary:hover {
+    background-color: #487e95;
+    border-color: #487e95;
+    border: 2px solid #d9dab0;
+    color: #d9dab0;
+}

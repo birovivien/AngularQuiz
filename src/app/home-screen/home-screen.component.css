@@ -1,0 +1,41 @@
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 20rem;
+}
+
+.home-title {
+    font-size: 3em;
+}
+
+.name-input {
+    background-color: #f8f1f1;
+    color:  #161d6f;
+    font-size: 1.25rem;
+    border: 2px solid #d9dab0;
+    border-radius: 6px;  
+}
+
+.btn-primary {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #d9dab0;
+    border-color: #d9dab0;
+    border: 2px solid #d9dab0;
+    color: #161d6f;
+}
+
+.btn-primary:hover {
+    background-color: #487e95;
+    border-color: #487e95;
+    border: 2px solid #d9dab0;
+    color: #d9dab0;
+}
+
+.home-title, .btn-start {
+    text-align: center;
+}
+

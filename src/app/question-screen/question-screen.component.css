@@ -1,0 +1,49 @@
+.player-name {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+.question {
+    font-size: 3em;
+    text-align: center;
+    padding: 0 1em .7em;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+button {
+    align-content: center;
+    border-radius: 5px;
+}
+
+.answer{
+    width: 40%;
+    font-size: 2em;
+    text-align: center;
+    margin: .6em;
+    color: #161d6f;
+}
+
+.answer:hover {
+    color: #d9dab0;
+}
+
+.next {
+    width: 15%;
+    font-size: 1.8em;
+    background-color: #d9dab0;
+    border-color: #d9dab0;
+    color: #161d6f;
+}
+
+.next:hover {
+    background-color: #487e95;
+    border-color: #d9dab0;
+    color: #d9dab0;
+}

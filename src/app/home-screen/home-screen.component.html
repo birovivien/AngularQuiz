@@ -1,0 +1,15 @@
+<div class="container">
+          <div >
+            <p class="home-title">Your name:</p>
+          </div>
+
+          <form #loginForm="ngForm" (ngSubmit)="startClick();">
+            <div class="form-group">
+              <input type="text" class="name-input form-control" placeholder="Name" [(ngModel)]="name" name="name" required>      
+            </div>
+            <button class="btn btn-primary" type="button" (click)="startClick();" [disabled]="!loginForm.valid">Start</button>
+          </form>
+          
+  </div>
+
+
