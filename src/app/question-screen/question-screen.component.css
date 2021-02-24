@@ -30,8 +30,10 @@ button {
     color: #161d6f;
 }
 
-.answer:hover {
-    color: #d9dab0;
+.answer:disabled {
+    background-color: #d9dab0;
+    border-color: #d9dab0;
+    color: #161d6f;
 }
 
 .next {
